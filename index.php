@@ -42,7 +42,42 @@ array_push($getArray, 'doramon', 'ninja', 'Ben 10',);
 var_dump($getArray);
 
 
+
+//Assignment operator ( = += -= *= /= %= **=)
+
+$x = 10;
+// $x = $x*3;
+// echo'result is '.$x.'<br>';
+
+//or (shortCut)
+$x *= 3;
+echo'result is '.$x.'<br>';
+
+$y = 33;
+$y *= 35;
+echo '35x of $y is :'.$y.'<br>';
+
   ?>
+
+<?php
+ 
+ //make a result grading sheet
+
+ $myScore = 45;
+
+if ($myScore >=80) {
+ echo 'A+';
+
+}elseif ($myScore >= 70) { 
+  echo 'A'; 
+}
+elseif ($myScore >= 60) 
+{ echo 'A-';
+}else {
+  echo 'fail';
+}
+
+?>
 
 
 
